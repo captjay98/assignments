@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+p {
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(0, 0%, 95%);
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 1440px;
+    height: auto;
+    font-size: 15px;
+    
+}
+
+
+.grid-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    align-content: center;
+
+}
+
+
+.grid-item {
+    height: 430px;
+    width: 300px;
+}
+
+.grid-item img {
+    margin: auto;
+    padding: 20px;
+}
+.grid-item h2 {
+    margin: auto;
+    padding: 20px;
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+
+.grid-item p {
+    margin: auto;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.button {
+    width: 40%;
+    height: 10%;
+    margin: auto;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    color: hsl(0, 0%, 95%);
+    text-align: center;
+    margin-top: 15%;
+    padding-top: 5%;
+
+}
+
+.grid-item.one {
+    background-color:hsl(31, 77%, 52%);
+}
+.grid-item.two {
+    background-color: hsl(184, 100%, 22%);
+}
+.grid-item.three {
+    background-color:hsl(179, 100%, 13%) ;
+}
+
+/* .col {
+    padding: 20px;
+    margin: 10px;
+    height: 50%;
+    width: 20%;
+
+    - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+}
+*/

@@ -1,0 +1,260 @@
+html {
+    background-color: black;
+    color: whitesmoke;
+    background-image: url("assets/ main_background.jpg");
+    background-repeat: repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif font-style:smallcaps;
+}
+
+.body {
+    background: blue;
+    background-image: url("assets/ main_background.jpg");
+}
+
+header {
+    width: 100%;
+    height: 300px;
+}
+
+
+header h1 {
+    border-color: red;
+    border-radius: 50px;
+    font-size: 25px;
+    opacity: 0.6;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+    margin: auto;
+    margin-top: 1%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+.container {
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.container.first {
+    background-color: purple;
+    height: 500px;
+    text-align: center;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+    padding-bottom: 50px;
+}
+
+.container.first img {
+    background-color: purple;
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right:10%;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+    width: 200px;
+    height:300px;
+}
+
+nav {
+    margin: auto;
+    width: 50%;
+    opacity: 0.6;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-spacing: 5px;
+}
+
+nav li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+
+a:link {
+    color: burlywood;
+    background-color: white;;
+}
+
+a:visited {
+    color: purple;
+    background-color: black;
+}
+
+a:hover {
+    color: pink;
+    background-color: aqua;
+}
+
+a:active {
+    color: green;
+    background-color: blue;
+}
+
+.col {
+    background-color: cornflowerblue;
+    float:left;
+    width: 30%;
+    height: 200px;
+    margin-left: 2%;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 9px;
+    border-width: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.col.one {
+
+    outline-color: darkorange;
+    outline-width: thick;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+
+
+
+}
+
+.col.two {
+
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+
+.col.three {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.container.foot {
+    background-color: aqua;
+    opacity: 0.3;
+    text-align: center;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+
+}
+
+input {
+    width: 30%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 9px;
+    border-bottom:3px solid red;
+    border-right:3px solid red;
+}
+
+textarea {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 9px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  select {
+    width: 30%;
+    padding: 6px 5px;
+    border: 1px solid red;
+    border-radius: 9px;
+    background-color: #f1f1f1;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+
+    p::first-line {
+        color: #ff0000;
+        font-variant: small-caps;
+      }
